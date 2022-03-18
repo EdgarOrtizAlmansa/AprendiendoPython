@@ -1,0 +1,6 @@
+nombre = input("Como te llamas ")
+strEdad = input("Que edad tienes? ")
+strAnno = input("Que año es? ")
+edad = int(strEdad)
+anno = int(strAnno)
+print("Hola", nombre, "Naciste en el año",anno-edad)
